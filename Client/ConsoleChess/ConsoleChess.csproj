@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChessClient\ChessClient.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ChessRules">
+      <HintPath>..\..\DB\ChessAPI2\ChessRules.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

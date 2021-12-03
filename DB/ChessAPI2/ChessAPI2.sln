@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessAPI2", "ChessAPI2.csproj", "{FC7D6108-B853-46E8-85A7-D36E5AC80C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessAPI2.Tests", "..\ChessAPI2.Tests\ChessAPI2.Tests.csproj", "{3746B7B5-4F2D-4337-A3C6-BEC4B27B3154}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC7D6108-B853-46E8-85A7-D36E5AC80C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7D6108-B853-46E8-85A7-D36E5AC80C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7D6108-B853-46E8-85A7-D36E5AC80C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7D6108-B853-46E8-85A7-D36E5AC80C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3746B7B5-4F2D-4337-A3C6-BEC4B27B3154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3746B7B5-4F2D-4337-A3C6-BEC4B27B3154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3746B7B5-4F2D-4337-A3C6-BEC4B27B3154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3746B7B5-4F2D-4337-A3C6-BEC4B27B3154}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF45D5A6-D6AF-4DD3-98E8-98B9BBEF2A88}
+	EndGlobalSection
+EndGlobal
